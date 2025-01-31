@@ -1,4 +1,5 @@
-
+config from cloud.resource where api.name = 'aws-ec2-describe-vpcs' as VPCs;
+show VPCs.configuration.cidrBlock;
 Workday is a steaming pile of burnt garbage. I've never come across software so obtusely non-intuitive for both candidates and recruiters alike. Completely bug ridden, date and hierarchically driven dependencies that are monolithic and inflexible, sends an email notification and text every time you do anything in it, shitty interface and wtf would anyone go "oh yes, I'd love to create a new, separate online account every time I apply at a company that uses workday!"
 
 I used green screen systems in the late 80's early 90's that were more intuitive. It's so bad, I'm embarrassed to use it and am probably going to change jobs because of it. I'm reading a litany of bugs across every module my company has implemented in the support channel from "I entered a candidate into TA manually and they've disappeared" to Project staff saying "where have all my projects and resourcing projections gone, they were visible in test tenant!"
